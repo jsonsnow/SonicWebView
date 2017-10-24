@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3B147E1F904EAC003B5D64 /* SonicSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B147D1F904EAC003B5D64 /* SonicSession.m */; };
+		BA3B14831F905B19003B5D64 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8CD9321F8F444D008A2BE9 /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3B14841F905B28003B5D64 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8CD9351F8F444D008A2BE9 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3B14851F905B2C003B5D64 /* CLCustomProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8CD9641F8F70A4008A2BE9 /* CLCustomProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3B14861F905B31003B5D64 /* CLSonicConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8CD9671F8F75F4008A2BE9 /* CLSonicConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3B14871F905B37003B5D64 /* CLSonicConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3B147F1F905A57003B5D64 /* CLSonicConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3B14891F905B3F003B5D64 /* CLSonicProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8CD96A1F8F7A98008A2BE9 /* CLSonicProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4C79031F94513100F2AC42 /* CLBasicCoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4C79011F94513100F2AC42 /* CLBasicCoverView.h */; };
+		BA4C79041F94513100F2AC42 /* CLBasicCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4C79021F94513100F2AC42 /* CLBasicCoverView.m */; };
+		BA4C79071F9451C000F2AC42 /* CLPictureCoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4C79051F9451C000F2AC42 /* CLPictureCoverView.h */; };
+		BA4C79081F9451C000F2AC42 /* CLPictureCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4C79061F9451C000F2AC42 /* CLPictureCoverView.m */; };
 		BA8CD9341F8F444D008A2BE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD9331F8F444D008A2BE9 /* AppDelegate.m */; };
 		BA8CD9371F8F444D008A2BE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD9361F8F444D008A2BE9 /* ViewController.m */; };
 		BA8CD93A1F8F444D008A2BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8CD9381F8F444D008A2BE9 /* Main.storyboard */; };
@@ -15,6 +26,8 @@
 		BA8CD9421F8F444D008A2BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD9411F8F444D008A2BE9 /* main.m */; };
 		BA8CD94C1F8F444D008A2BE9 /* demo_test_textViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD94B1F8F444D008A2BE9 /* demo_test_textViewTests.m */; };
 		BA8CD9571F8F444D008A2BE9 /* demo_test_textViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD9561F8F444D008A2BE9 /* demo_test_textViewUITests.m */; };
+		BA8CD9661F8F70A4008A2BE9 /* CLCustomProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD9651F8F70A4008A2BE9 /* CLCustomProtocol.m */; };
+		BA8CD9691F8F75F4008A2BE9 /* CLSonicConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CD9681F8F75F4008A2BE9 /* CLSonicConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3B147C1F904EAC003B5D64 /* SonicSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonicSession.h; sourceTree = "<group>"; };
+		BA3B147D1F904EAC003B5D64 /* SonicSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonicSession.m; sourceTree = "<group>"; };
+		BA3B147F1F905A57003B5D64 /* CLSonicConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSonicConstants.h; sourceTree = "<group>"; };
+		BA4C79011F94513100F2AC42 /* CLBasicCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBasicCoverView.h; sourceTree = "<group>"; };
+		BA4C79021F94513100F2AC42 /* CLBasicCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBasicCoverView.m; sourceTree = "<group>"; };
+		BA4C79051F9451C000F2AC42 /* CLPictureCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPictureCoverView.h; sourceTree = "<group>"; };
+		BA4C79061F9451C000F2AC42 /* CLPictureCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPictureCoverView.m; sourceTree = "<group>"; };
 		BA8CD92F1F8F444D008A2BE9 /* demo_test_textView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo_test_textView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8CD9321F8F444D008A2BE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA8CD9331F8F444D008A2BE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +71,11 @@
 		BA8CD9521F8F444D008A2BE9 /* demo_test_textViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo_test_textViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8CD9561F8F444D008A2BE9 /* demo_test_textViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo_test_textViewUITests.m; sourceTree = "<group>"; };
 		BA8CD9581F8F444D008A2BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8CD9641F8F70A4008A2BE9 /* CLCustomProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCustomProtocol.h; sourceTree = "<group>"; };
+		BA8CD9651F8F70A4008A2BE9 /* CLCustomProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCustomProtocol.m; sourceTree = "<group>"; };
+		BA8CD9671F8F75F4008A2BE9 /* CLSonicConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSonicConnection.h; sourceTree = "<group>"; };
+		BA8CD9681F8F75F4008A2BE9 /* CLSonicConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSonicConnection.m; sourceTree = "<group>"; };
+		BA8CD96A1F8F7A98008A2BE9 /* CLSonicProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSonicProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +130,18 @@
 				BA8CD9331F8F444D008A2BE9 /* AppDelegate.m */,
 				BA8CD9351F8F444D008A2BE9 /* ViewController.h */,
 				BA8CD9361F8F444D008A2BE9 /* ViewController.m */,
+				BA8CD9641F8F70A4008A2BE9 /* CLCustomProtocol.h */,
+				BA8CD9651F8F70A4008A2BE9 /* CLCustomProtocol.m */,
+				BA8CD9671F8F75F4008A2BE9 /* CLSonicConnection.h */,
+				BA8CD9681F8F75F4008A2BE9 /* CLSonicConnection.m */,
+				BA3B147F1F905A57003B5D64 /* CLSonicConstants.h */,
+				BA3B147C1F904EAC003B5D64 /* SonicSession.h */,
+				BA3B147D1F904EAC003B5D64 /* SonicSession.m */,
+				BA4C79011F94513100F2AC42 /* CLBasicCoverView.h */,
+				BA4C79021F94513100F2AC42 /* CLBasicCoverView.m */,
+				BA4C79051F9451C000F2AC42 /* CLPictureCoverView.h */,
+				BA4C79061F9451C000F2AC42 /* CLPictureCoverView.m */,
+				BA8CD96A1F8F7A98008A2BE9 /* CLSonicProtocol.h */,
 				BA8CD9381F8F444D008A2BE9 /* Main.storyboard */,
 				BA8CD93B1F8F444D008A2BE9 /* Assets.xcassets */,
 				BA8CD93D1F8F444D008A2BE9 /* LaunchScreen.storyboard */,
@@ -134,6 +171,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BA3B14821F905B0D003B5D64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3B14891F905B3F003B5D64 /* CLSonicProtocol.h in Headers */,
+				BA4C79031F94513100F2AC42 /* CLBasicCoverView.h in Headers */,
+				BA3B14871F905B37003B5D64 /* CLSonicConstants.h in Headers */,
+				BA3B14861F905B31003B5D64 /* CLSonicConnection.h in Headers */,
+				BA3B14851F905B2C003B5D64 /* CLCustomProtocol.h in Headers */,
+				BA3B14841F905B28003B5D64 /* ViewController.h in Headers */,
+				BA3B14831F905B19003B5D64 /* AppDelegate.h in Headers */,
+				BA4C79071F9451C000F2AC42 /* CLPictureCoverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		BA8CD92E1F8F444D008A2BE9 /* demo_test_textView */ = {
 			isa = PBXNativeTarget;
@@ -142,6 +197,7 @@
 				BA8CD92B1F8F444D008A2BE9 /* Sources */,
 				BA8CD92C1F8F444D008A2BE9 /* Frameworks */,
 				BA8CD92D1F8F444D008A2BE9 /* Resources */,
+				BA3B14821F905B0D003B5D64 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -266,7 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8CD9371F8F444D008A2BE9 /* ViewController.m in Sources */,
+				BA3B147E1F904EAC003B5D64 /* SonicSession.m in Sources */,
+				BA8CD9661F8F70A4008A2BE9 /* CLCustomProtocol.m in Sources */,
 				BA8CD9421F8F444D008A2BE9 /* main.m in Sources */,
+				BA4C79081F9451C000F2AC42 /* CLPictureCoverView.m in Sources */,
+				BA4C79041F94513100F2AC42 /* CLBasicCoverView.m in Sources */,
+				BA8CD9691F8F75F4008A2BE9 /* CLSonicConnection.m in Sources */,
 				BA8CD9341F8F444D008A2BE9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VV5D378YQ;
 				INFOPLIST_FILE = demo_test_textView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo-tool.weiclicai.demo-test-textView";
@@ -444,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VV5D378YQ;
 				INFOPLIST_FILE = demo_test_textView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo-tool.weiclicai.demo-test-textView";
